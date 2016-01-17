@@ -93,7 +93,7 @@ extern (C)
   int gsl_vector_fread(FILE* stream, gsl_vector* v);
   int gsl_vector_fwrite(FILE* stream, const gsl_vector* v);
   int gsl_vector_fscanf(FILE* stream, gsl_vector* v);
-  int gsl_vector_fprintf(FILE* stream, const gsl_vector* v, const char* format);
+  int gsl_vector_fprintf(FILE* stream, const(gsl_vector)* v, const(char)* format);
 
   int gsl_vector_memcpy(gsl_vector* dest, const gsl_vector* src);
 
