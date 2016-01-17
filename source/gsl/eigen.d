@@ -24,6 +24,7 @@ module gsl.eigen;
 */
 
 import gsl.errno;
+import gsl.complex;
 import gsl.block_float;
 import gsl.check_range;
 import core.stdc.stdio: FILE;
